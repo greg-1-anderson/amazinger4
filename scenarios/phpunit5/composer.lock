@@ -161,16 +161,16 @@
             "time": "2015-06-14T21:17:01+00:00"
         },
         {
-            "name": "g-1-a/composer-test-scenarios",
+            "name": "greg-1-anderson/composer-test-scenarios",
             "version": "1.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/g-1-a/composer-test-scenarios.git",
+                "url": "https://github.com/greg-1-anderson/composer-test-scenarios.git",
                 "reference": "78733a4a8dea12d51aafada30932e666f68c13e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/g-1-a/composer-test-scenarios/zipball/78733a4a8dea12d51aafada30932e666f68c13e7",
+                "url": "https://api.github.com/repos/greg-1-anderson/composer-test-scenarios/zipball/78733a4a8dea12d51aafada30932e666f68c13e7",
                 "reference": "78733a4a8dea12d51aafada30932e666f68c13e7",
                 "shasum": ""
             },
@@ -193,16 +193,16 @@
             "time": "2018-01-17T20:25:16+00:00"
         },
         {
-            "name": "g-1-a/phpunit-5-adapter",
+            "name": "greg-1-anderson/phpunit-5-adapter",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/g-1-a/phpunit-5-adapter.git",
+                "url": "https://github.com/greg-1-anderson/phpunit-5-adapter.git",
                 "reference": "f7412390b8ca57704bf388f3780da06d87faef87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/g-1-a/phpunit-5-adapter/zipball/f7412390b8ca57704bf388f3780da06d87faef87",
+                "url": "https://api.github.com/repos/greg-1-anderson/phpunit-5-adapter/zipball/f7412390b8ca57704bf388f3780da06d87faef87",
                 "reference": "f7412390b8ca57704bf388f3780da06d87faef87",
                 "shasum": ""
             },

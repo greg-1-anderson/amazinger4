@@ -1,55 +1,85 @@
-# Starter
+# Amazinger4
 
-A starter PHP project with many services and features pre-configured. Simply clone and then customize to suit.
+Put a one-line description of your project here.
 
-## Usage
+[![Travis CI](https://travis-ci.org/gregreg-1-andersonnderson/amazinger4.svg?branch=master)](https://travis-ci.org/gregreg-1-andersonnderson/amazinger4)
+[![Windows CI](https://ci.appveyor.com/api/projects/status/REPLACE_THIS?svg=true)](https://ci.appveyor.com/project/gregreg-1-andersonnderson/amazinger4)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gregreg-1-andersonnderson/amazinger4/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gregreg-1-andersonnderson/amazinger4/?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/gregreg-1-andersonnderson/amazinger4/badge.svg?branch=master)](https://coveralls.io/github/gregreg-1-andersonnderson/amazinger4?branch=master) 
+[![License](https://poser.pugx.org/gregreg-1-andersonnderson/amazinger4/license)](https://github.com/gregreg-1-andersonnderson/amazinger4//master/LICENSE)
 
-To get started, export your [GitHub personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) and the GitHub account or organization where you would like the project to be created.
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
 ```
-$ export GITHUB_TOKEN='[REDACTED]'
-$ export GITHUB_ORG='my-github-username-or-org'
-$ composer create-project g-1-a/starter my-new-project
+Give examples
 ```
 
-## Features
+### Installing
 
-This project comes with a number of configuration files already set up for a number of services. A Composer post-install hook makes further modifications, and, where possible, makes API calls to complete the setup for some services.
+A step by step series of examples that tell you have to get a development env running
 
-The following things are provided:
+Say what the step will be
 
-- Project information
-  - [composer.json](/composer.json): Automatically customized with project-specific information.
-    - Project name (taken from `create-project` project name argument)
-    - Author name and email address (from git configuration)
-  - [README.md](/customize/templates/README.md): Example template with badges to get you started.
-  - [CHANGELOG.md](/CHANGELOG.md): Blank slate provided in the hopes that releases may be recorded here.
-  - [LICENSE](/LICENSE): Defaults to MIT. Will automatically be updated with dependency licenses and copyright year every time 'composer update' is run.
-- Project metadata
-  - [.editorconfig](/.editorconfig): Set up for PSR-2 conventions for compliant editors.
-  - [.gitattributes](/.gitattributes): Ensures that tests, build results and so on are not exported to Packagist.
-  - [.gitignore](/.gitignore): Ensures that vendor directory and so on is not committed to the repository.
-- Repository
-  - **GitHub:** Automatically creates a new repository on GitHub and pushes up your new project. Starter GitHub contribution templates are provided:
-    - [CONTRIBUTING.md](/CONTRIBUTING.md)
-    - [issue_template.md](/.github/issue_template.md)
-    - [pull_request_template](/.github/pull_request_template.md)    
-- Testing
-  - **Travis:** Automatically enables testing for the new project in Travis.
-    - [phpunit.xml.dist](/phpunit.xml.dist): Test configuration with code coverage (html coverage report configuration is present, but commented out).
-    - [Example.php](/src/Example.php): A simple class that multiplies.
-    - [ExampleTest.php](/tests/ExampleTest.php): A simple data-driven test that pulls fixture data from a data provider.
-  - **Coveralls:** Project must be manually configured on [coveralls.io](https://coveralls.io). PHPUnit and Travis are already configured to export coverage data to Coveralls automatically.
-  - **Appveyor:** An appveyor configuration file is provided, but project must be manually enabled on [appveyor](https://www.appveyor.com/) if Windows testing is desired.
-  - **Scrutinizer:** Project must be manually enabled on [scrutinizer-ci.com](https://scrutinizer-ci.com).
-  - Provides handy composer scripts:
-    - `composer test`: Run all tests.
-    - `composer unit`: Run just the phpunit tests.
-    - `composer lint`: Run the php linter.
-    - `composer cs`: Run the code sniffer to check for PSR-2 compliance.
-    - `composer cbf`: Fix code style violations where possible.
-- Composer
-  - **Packagist:** Project must be manually submitted to [packagist.org](https://packagist.org)
-  - **Dependencies:** A [dependencies.yml](/dependencies.yml) is provided; project must be enabled on [dependencies.io](https://www.dependencies.io/)
-  - [Composer test scenarios](https://github.com/g-1-a/composer-test-scenarios) are configured to allow tests to be written for PHPUnit 6, and still use PHPUnit 5 for testing on PHP 5.6. Highest/lowest testing is also configured by default.
+```
+Give the example
+```
 
-After the `composer create-project` completes running, your new project will exist on GitHub, and the first test (with placeholder code) should already be queued to run on Travis. Run through the list above, customize as needed, enable services that were not automatically configured, and start writing your own code.
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+The test suite may be run locally by way of some simple composer scripts.
+
+| Test             | Command
+| ---------------- | ---
+| Run all tests    | `composer test`
+| PHPUnit tests    | `composer unit`
+| PHP linter       | `composer lint`
+| Code style       | `composer cs`     
+| Fix style errors | `composer cbf`
+
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Composer](https://getcomposer.org/) - Dependency Management
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/gregreg-1-andersonnderson/amazinger4/tags). 
+
+## Authors
+
+* **Greg Anderson** - created project from template.
+
+See also the list of [contributors](https://github.com/gregreg-1-andersonnderson/amazinger4/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc
+* Thanks to PurpleBooth for the [example README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
